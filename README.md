@@ -1,2 +1,3 @@
 # CakeMC - Minecraft Server
-Some ploblem are enabled.
+SOME PLOBLEM
+主站 cakemc.top
