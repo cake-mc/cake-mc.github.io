@@ -1,0 +1,14 @@
+<local:MyCard Title="欢迎" Margin="0,0,0,15">
+     <StackPanel Margin="25,40,23,15">
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="欢迎来到 TZMTR"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="感谢您的游玩及支持"/>
+     </StackPanel>
+</local:MyCard>
+<local:MyCard Title="规则" Margin="0,0,0,15">
+     <StackPanel Margin="25,40,23,15">
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="服务器内有审核制度，详细请看。"/>
+     </StackPanel>
+</local:MyCard>
