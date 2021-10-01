@@ -1,4 +1,4 @@
-<local:MyCard Title="欢迎" Margin="0,0,0,15">
+<local:MyCard Title="欢迎" Margin="0,0,0,15" Background="{DynamicResource ColorBrush3}">
      <StackPanel Margin="25,40,23,15">
            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="欢迎来到 TZMTR"/>
@@ -7,7 +7,7 @@
            <Image Height="50" HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/10/01/5a927d2ffd91d.jpg" />
      </StackPanel>
 </local:MyCard>
-<local:MyCard Title="规则" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="规则" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" Background="{DynamicResource ColorBrush3}">
      <StackPanel Margin="25,40,23,15">
            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="服务器内有审核制度，详细请看。"/>
