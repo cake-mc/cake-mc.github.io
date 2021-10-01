@@ -4,11 +4,16 @@
                   Text="欢迎来到 TZMTR"/>
            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="感谢您的游玩及支持"/>
+           <Image Height="50" HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/10/01/5a927d2ffd91d.jpg" />
      </StackPanel>
 </local:MyCard>
 <local:MyCard Title="规则" Margin="0,0,0,15">
      <StackPanel Margin="25,40,23,15">
            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="服务器内有审核制度，详细请看。"/>
+           <local:MyHint IsWarn="False"
+                  Text="A级 可以建造火车站，APM及一切建筑建筑&#xA;B级 可以建造轻轨，地铁站等公共交通建筑物&#xA;C级 可以建造简单的装饰物等&#xA;D级 无业游民，可找房子居住及搭乘地铁等&#xA;E级 再接再厉&#xA;如未得到至少D级游民证书，您只能创造模式及不能敲打和建造建筑游玩"/>
+           <local:MyHint
+                  Text="任何玩家不得以诽谤，侮辱等方式迫害玩家，每2小时可考试一次"/>
      </StackPanel>
 </local:MyCard>
