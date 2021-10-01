@@ -1,2 +1,4 @@
 # CakeMC - Minecraft Server
-[Connect Link](cakemc.top)
+[Main Page](https://www.cakemc.top/)
+[Skin System](https://skin.cakemc.top/)
+[TZMTR~PCL2 MainPage](mainpages/tzmtr.xaml)
