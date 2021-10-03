@@ -4,8 +4,8 @@
              Text="你好！欢迎你游玩 CakeMC 服务器！希望你能有一个快乐的一天" />
         <TextBlock TextWrapping="Wrap" LineHeight="17"
              Text="如果觉得服务器还不错的话，记得给腐竹打赏哦（" />
-             <StackPanel Margin="25,40,23,15">
-                  <local:MyButton Height="35" Width="100" HorizontalAlignment="Center" Padding="13,0,13,0"
+             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                  <local:MyButton Margin="0,0,0,15" Height="35" Width="100" HorizontalAlignment="Center" Padding="13,0,13,0"
                        Text="打赏" EventType="打开网页" EventData="https://afdian.net/@Big_Cake2577117205" />
              </StackPanel>
     </StackPanel>
