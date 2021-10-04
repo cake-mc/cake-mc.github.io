@@ -17,3 +17,10 @@
                    Text="任何玩家不得以诽谤，侮辱等方式迫害其他玩家！" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyCard Margin="0,0,0,15" Title="赞助" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="最后更新：2021/10/05" IsWarn="False"/>
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+            Text="希望有能力的人多多赞助，支持服务器的运营" />
+    </StackPanel>
