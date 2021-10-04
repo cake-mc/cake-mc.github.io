@@ -10,3 +10,13 @@
              </StackPanel>
     </StackPanel>
 </local:MyCard>
+
+<local:MyCard Margin="0,0,0,15" Title="服务器公告" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="最后更新：2021/10/04" IsWarn="False"/>
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+            Text="面板 30 元 / 月，目前仍需 60 元来补齐九月服务器费用" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+            Text="希望有能力的人多多赞助，支持服务器的运营" />
+    </StackPanel>
+</local:MyCard>
