@@ -1,7 +1,7 @@
 <local:MyCard Title="TZMTR服务器公告">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
-                   Text="恭喜你！你的整合包版本为最新版1.3！&#xA;你在新整合包发布之前都可以不用更新了。" />
+                   Text="这是一个测试公告，我是傻逼。" />
         <local:MyHint Margin="0,8,0,2" IsWarn="False"
                    Text="启动器每天会自动更新公告。" />
     </StackPanel>
@@ -24,3 +24,4 @@
         <TextBlock TextWrapping="Wrap" LineHeight="17"
             Text="希望有能力的人多多赞助，支持服务器的运营" />
     </StackPanel>
+</local:MyCard>
