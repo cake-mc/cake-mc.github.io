@@ -4,6 +4,8 @@
                    Text="欢迎!" />
         <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
                    Text="启动游戏" EventType="启动游戏" EventData="TZMTR" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
+                   Text="刷新主页" EventType="刷新主页" />
     </StackPanel>
 </local:MyCard>
 
