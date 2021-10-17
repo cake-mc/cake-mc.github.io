@@ -2,9 +2,9 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
                    Text="欢迎!" />
-        <local:MyButton Margin="0,8,0,10" Width="100" Height="35"
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="启动游戏" EventType="启动游戏" EventData="TZMTR" />
-        <local:MyButton Margin="0,8,0,10" Width="100" Height="35"
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="刷新主页" EventType="刷新主页" />
     </StackPanel>
 </local:MyCard>
