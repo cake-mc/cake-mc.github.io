@@ -13,10 +13,18 @@
 
 <local:MyCard Margin="0,0,0,15" Title="服务器公告" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Text="最后更新：2021/10/04" IsWarn="False"/>
+        <local:MyHint Text="最后更新：2022/2/5" IsWarn="False"/>
         <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="面板 30 元 / 月，目前仍需 60 元来补齐九月服务器费用" />
+            Text="服务器已经全面启用统一验证服务！从现在起，你需要前往指定皮肤站 CakeSkin 进行账号注册与角色创建。" />
         <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="希望有能力的人多多赞助，支持服务器的运营" />
+            Text="如果你还在使用旧版本整合包或者离线 / 正版登录，将无法进入服务器。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+            Text="新版本整合包已经对 CakeSkin 进行了配置，你只需要在启动启动器以后登录自己的 CakeSkin 账号即可加入服务器。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+            Text="在去年暑假期间已经注册过 CakeSkin 的需要重新注册，因为我们放弃了当时的那个站点，并进行了站点迁移。旧皮肤站的账号已经无法登录，望周知。" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                   <local:MyButton Margin="0,0,0,15" Height="35" Width="100" HorizontalAlignment="Center" Padding="13,0,13,0"
+                        Text="打开 CakeSkin" EventType="打开网页" EventData="https://skin.cakemc.top" />
+            </StackPanel>
     </StackPanel>
 </local:MyCard>
