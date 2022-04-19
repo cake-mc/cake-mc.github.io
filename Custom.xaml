@@ -23,7 +23,7 @@
         <TextBlock TextWrapping="Wrap" LineHeight="17"
             Text="在去年暑假期间已经注册过 CakeSkin 的需要重新注册，因为我们放弃了当时的那个站点，并进行了站点迁移。旧皮肤站的账号已经无法登录，望周知。" />
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                   <local:MyButton Margin="0,0,0,15" Height="35" Width="100" HorizontalAlignment="Center" Padding="13,0,13,0"
+                   <local:MyButton Margin="0,0,0,15" Height="35" Width="150" HorizontalAlignment="Center" Padding="13,0,13,0"
                         Text="打开 CakeSkin" EventType="打开网页" EventData="https://skin.cakemc.top" />
             </StackPanel>
     </StackPanel>
